@@ -150,6 +150,19 @@ input[type="file"] {
     }
 }
 
+.footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    color: #ebbe87;
+    font-size: 14px;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
 .error {
     color: #ff6b6b;
     font-size: 1.2rem;
