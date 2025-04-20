@@ -183,6 +183,26 @@ input[type="file"] {
     letter-spacing: 0.5px; /* Melhora a legibilidade */
 }
 
+.footer-credits {
+    margin-top: 5px;
+}
+
+.footer-link {
+    color: #ed9222;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.link-icon {
+    font-size: 0.8em;
+}
+
 .error {
     color: #ff6b6b;
     font-size: 1.2rem;
