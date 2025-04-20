@@ -149,18 +149,38 @@ input[type="file"] {
         margin-bottom: 10px;
     }
 }
+/* Container principal */
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px; /* Espaço extra para o footer */
+    position: relative; /* Importante para o posicionamento */
+}
 
+/* Footer fixo no rodapé */
 .footer {
-    margin-top: 30px;
-    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
     text-align: center;
     color: #ebbe87;
-    font-size: 14px;
-    width: 100%;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #320b74 20%,
+        #320b74 80%,
+        transparent
+    ); /* Efeito integrado ao design */
+    margin-top: 40px; /* Espaço acima do footer */
 }
 
 .footer p {
     margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.5px; /* Melhora a legibilidade */
 }
 
 .error {

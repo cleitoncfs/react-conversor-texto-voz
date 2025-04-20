@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import VoiceSelector from "./VoiceSelector";
 import TextAreaWithUpload from "./TextAreaWithUpload";
 import ActionButton from "./ActionButton";
+import Footer from "./Footer";
 import "./styles.css";
 
 const TextToSpeech = () => {
@@ -104,6 +105,7 @@ const TextToSpeech = () => {
                     description="Obtenha um arquivo do conteúdo:"
                     onClick={handleDownload}
                 />
+                <Footer />
             </div>
         </div>
     );
